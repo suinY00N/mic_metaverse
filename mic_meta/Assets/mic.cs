@@ -8,10 +8,7 @@ public class mic : MonoBehaviour
     //private AudioClip mic;
     private int lastSample = 0;
     private float[] samples = null;
-    private List<float> readSamples = null;
-    private int channels = 0;
-    private int readUpdateId = 0;
-    private int previousReadUpdateId = -1;
+  
     bool IsAvaliable;
 
 
